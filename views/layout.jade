@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title= title
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    //script(src='http://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.2/jquery.mobile.min.js')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css", rel="stylesheet")
+  body
+   
+   #orient.jumbotron
+    block content
+    a(href='#',id="upload").btn.btn-info.btn-sm Use fb image  
+
+    div#uploadDiv
+     h4 Fetch Image
+     div.col-sm-6
+     div.form-group
+     //form(method="POST", action="#",role="form")
+     input(type="text", name="uname",id="uname",style="width:50%;position:relative;",class="form-control")
+     p.help-block Enter your facebook username here
+     button#submit.btn.btn-info Fetch 
+    
+     include includes/footer

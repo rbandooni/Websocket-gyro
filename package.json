@@ -1,0 +1,14 @@
+{
+  "name": "gyrosocket",
+  "version": "0.0.1",
+  "description": "AA website using the phone gyroscope",
+  "main": "app.js",
+  "repository": "",
+  "author": "Rohit Bandooni",
+  "dependencies": {
+    "jade": "~0.2",
+    "stylus":"~0.2",
+    "express": "~3.2.4",
+    "socket.io": "~0.9.14"
+  }
+}
